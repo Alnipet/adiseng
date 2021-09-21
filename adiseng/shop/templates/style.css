@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__first-level-inner {
+    width: 100%;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+.header__main-level-inner {
+    width: 100%;
+    height: 80px;
+    padding: 13px 0 13px;
+    background-color: #F4F4F4;
+}
+
+.header__main-level-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    width: 166px;
+    height: 54px;
+}
+
+.header__menu {
+    padding-top: 20px;
+}
+
+.header__menu-list {
+    display: flex;
+
+}
+
+.header__menu-item {
+    margin-right: 40px;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__menu-item a {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+
+}
+.page-content {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.product-categories {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 15px;
+}
+
+.product-categories__category-list {
+    width: 250px;
+}
+
+.product-categories__category-list-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+
+.product-categories__category-item {
+    display: block;
+    padding: 16px 0 16px 5px;
+
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    font-size: 16px;
+
+    border: 1px solid #E5E5E5;
+}
+
+.product-categories__category-item:hover {
+    background-color: #E5E5E5;
+}
+
+.product-categories__slider {
+    width: 630px;
+    height: 350px;
+
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+
+.main-disc {
+    margin-top: 21px;
+}
+
+.main-disc__title {
+    margin: 30px 60px 0;
+
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-disc__text {
+    margin-top: 15px;
+
+    font-size: 18px;
+    text-align: center;
+}
